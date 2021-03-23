@@ -1,0 +1,57 @@
+body {
+	padding-bottom: 50px;
+}
+.space {
+	width: 20px;
+}
+.divider {
+	width: 100%;
+	height: 20px;
+}
+button {
+	cursor: pointer;
+}
+.container {
+	margin-top: 56.5px;
+}
+#clear {
+	display: none;
+}
+
+#invoice > table > thead > tr > th:nth-child(3) {
+	display: none;
+}
+#invoice > table > tbody > tr > td.stock {
+	display: none;
+}
+#invoice > table > tfoot > tr > th:nth-child(3) {
+	display: none;
+}
+#invoice > table > thead > tr > th:nth-child(5) {
+	display: none;
+}
+#invoice > table > tbody > tr > td:nth-child(5) {
+	display: none;
+}
+#invoice > table > tfoot > tr > th:nth-child(5) {
+	display: none;
+}
+
+#invoice > table > tbody > tr > td:nth-child(1) {
+	width: 150px;
+}
+#invoice > table > tbody > tr > td:nth-child(2) {
+	width: 400px;
+}
+#invoice > table > tbody > tr > td:nth-child(4) {
+	width: 150px;
+}
+#invoice > table > tbody > tr > td:nth-child(5) {
+	width: 150px;
+}
+#invoice > table > tbody > tr > td:nth-child(6) {
+	width: 150px;
+}
+#invoice > table > tbody > tr > td:nth-child(7) {
+	width: 150px;
+}
